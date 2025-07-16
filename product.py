@@ -14,6 +14,7 @@ class Product:
         self._item_type = item_type     # Ex: Pants -> Jeans, Shorts, Sweats
         self._item_stock = 0
         # size dict for item stock with sizes
+        # dict with tuple of color and size with a value of stock?
         self._brand = ""
         self._color = []
         self._demographics = []
